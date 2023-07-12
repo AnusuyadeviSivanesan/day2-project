@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://www.crushpixel.com/big-static15/preview4/dutch-angle-photography-ganpati-statue-1830312.jpg);
+    background-size: cover;
+    
+}
+
+.container{
+    border: 5px ridge aquamarine;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.item{
+    width: 100px;
+    height: 150px;
+    background-color: azure;
+    border: 1px ridge antiquewhite;
+    margin: 5px;
+    margin-left: 100px;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+}
+.name{
+    font-size: 50px;
+    border: 5px ridge aquamarine;
+    background-color: goldenrod;
+    text-align: center;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    
+    
+}
